@@ -9,6 +9,8 @@ import androidx.compose.ui.tooling.preview.Preview
 //запускать приложение не надо.
 // надо открыть тут в правом верхнем углу вкладку предпросмотра
 
+//NO CHATGPT
+
 @Composable
 fun Task1() {
     // TODO: Сделай 3 текста которые располагаются сверху вниз.
