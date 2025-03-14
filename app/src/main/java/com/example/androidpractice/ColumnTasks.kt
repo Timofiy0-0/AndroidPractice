@@ -77,7 +77,9 @@ fun Task3() {
                 .size(80.dp)
                 .background(Color.Red),
         )
-        {}
+        {
+
+        }
     }
 }
 
