@@ -104,7 +104,7 @@ fun Task4() {
     Column(
         Modifier
             .fillMaxSize()
-            .background(Color.Yellow) //TODO оранжевый есть в Task6
+            .background(Color(0xFFFF8000)) //TODO оранжевый есть в Task6
     ) { }
     }
 }
@@ -148,27 +148,31 @@ fun Task6() {
         Modifier
             .fillMaxSize()
             .padding(16.dp)
-            .background(Color.Yellow)
+            .background(Color(0xFFFF8000))
     ) {
         Column(
             Modifier
-                .size(200.dp)
+                .fillMaxWidth()
+                .weight(1f)
                 .padding(16.dp)
                 .background(Color.White)
         ) { }
         Column(
             Modifier
-                .size(200.dp)
+                .fillMaxWidth()
+                .weight(1f)
                 .padding(16.dp)
                 .background(Color.White)
         ) { }
         Column(
             Modifier
-                .size(200.dp)
+                .fillMaxWidth()
+                .weight(1f)
                 .padding(16.dp)
                 .background(Color.White)
         ) { }
         //сомниваюсь в правильности
+        //теперь нет)
     }
 }
 
@@ -511,7 +515,7 @@ fun Task13() {
 @Composable
 fun PreviewColumnTasks() {
     //сюда пишете задание которое сейчас делаете, чтоб смотреть что получилось
-    Task13()
+    Task6()
 }
 
 /**
