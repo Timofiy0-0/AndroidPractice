@@ -104,7 +104,7 @@ fun Task4() {
     Column(
         Modifier
             .fillMaxSize()
-            .background(Color(0xFFFF8000)) //TODO оранжевый есть в Task6
+            .background(Color(0xFFFF8000))
     ) { }
     }
 }
